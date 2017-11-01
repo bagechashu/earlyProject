@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 防止IE8,7进入怪异模式 -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="IE=Edge" />
+    <!-- 设置编码 -->
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="--,方法数码,网络建站">
+    <meta name="description" content="--,方法数码,网络建站">
+    <!-- External CSS -->
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/public.css" rel="stylesheet" type="text/css" />
+    <link href="css/master.css" rel="stylesheet" type="text/css" />
+    <!-- JavaScript -->
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.superslide.2.1.1.js"></script>
+    <script type="text/javascript" src="js/jquery.fly.min.js"></script>
+    <script type="text/javascript" src="js/requestAnimationFrame.js"></script>
+    <!--[if lt IE 9]>
+    <script  src="js/jquery.html5shiv.js" type="text/javascript"></script>
+    <![endif]-->
+    <!--[if lt IE 7]>
+    <script src="js/jquery.fixie6.js" type="text/javascript" ></script>
+    <![endif]-->
+    <!--[if lte IE 6]>
+    <script type="text/javascript" src="js/jquery.DD_belatedPNG_0.0.8a.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        DD_belatedPNG.fix("*");
+    </script>
+    <![endif]-->
+    <title>方法数码</title>
+    <script>
+
+    </script>
+</head>
+<body>
+<div class="index-topSearch">
+    <div class="touming"></div>
+    <div class="box">
+        <div class="wrapper">
+            <a class="topSearch-logo"></a>
+            <div class="topSearch-r"><input type="text" placeholder="做网站，找方法数码"><a href="#">搜索</a></div>
+        </div>
+    </div>
+</div>
+<div class="index-rightNav m-sidebar">
+    <a href="#" class="car"><img src="images/i-40.png" alt="" class="line1"><img id="end" class="icon" src="images/i-31.png" alt=""><p>购物车</p><img src="images/i-40.png" alt="" class="line2"></a>
+    <a href="#" class="focus"><img src="images/i-32.png" alt=""><div class="content">我的收藏</div></a>
+    <a href="#" class="star" rel="0"><img src="images/i-33.png" alt=""><div class="content">我关注的品牌</div></a>
+    <a href="#" class="timed"><img src="images/i-34.png" alt=""><div class="content">我看过的</div></a>
+    <a href="#" class="edit"><img src="images/i-35.png" alt=""><div class="content">用户反馈</div></a>
+    <a href="#" class="qr">
+        <img src="images/i-36.png" alt="">
+        <div class="qrBox"><img src="images/i-39.png" alt="" class="qrPic"></div>
+    </a>
+    <a href="#" class="toTop"><img src="images/i-37.png" alt=""></a>
+</div>
+<header class="headerone">
+    <div class="headerone-top">
+        <div class="wrapper">
+            <div class="fl">
+                <span>嗨！欢迎使用FDmall</span>
+                <a class="userEnetr" href="">请登录</a>
+                <a class="userEnetr" href="">免费注册</a>
+            </div>
+            <ul class="headerone-top-r clearfix">
+                <li class="li"><a href="">个人中心</a></li>
+                <li class="li"><a href="">购物车</a></li>
+                <li class="li"><a href="">我的收藏</a></li>
+                <li class="li"><a href="">我的关注</a></li>
+                <li class="li"><a href="">手机商城</a></li>
+                <li class="li headerone-last clearfix">
+                    <img class="fl i1" src="images/i-1.png" alt="">
+                    <a class="fl btnShow" href="">网站导航</a>
+                    <img class="fl i2" src="images/i-2.png" alt="">
+                    <div class="headeroneShow clearfix">
+                        <div class="lis">
+                            <p>茶叶茶具</p>
+                            <ul>
+                                <li><a href="#">普洱</a></li>
+                                <li style="margin-bottom: 10px;"><a href="#">铁观音</a></li>
+                                <li><a href="#">紫砂茶具</a></li>
+                                <li><a href="#">竹木茶具</a></li>
+                            </ul>
+                        </div>
+                        <div class="lis">
+                            <p>四川特产</p>
+                            <ul>
+                                <li><a href="#">特色茶饮</a></li>
+                                <li style="margin-bottom: 10px;"><a href="#">特色牛肉</a></li>
+                                <li><a href="#">山珍</a></li>
+                                <li><a href="#">调味用品</a></li>
+                            </ul>
+                        </div>
+                        <div class="lis">
+                            <p>休闲零食</p>
+                            <ul>
+                                <li><a href="#">豆制品 </a></li>
+                                <li style="margin-bottom: 10px;"><a href="#">坚果炒货</a></li>
+                                <li><a href="#">肉干肉脯</a></li>
+                                <li><a href="#">糖果/巧克力</a></li>
+                            </ul>
+                        </div>
+                        <div class="lis">
+                            <p>户外用品</p>
+                            <ul>
+                                <li><a href="#">冲锋衣裤</a></li>
+                                <li style="margin-bottom: 10px;"><a href="#">抓绒衣裤</a></li>
+                                <li><a href="#">背包</a></li>
+                                <li><a href="#">户外工具</a></li>
+                            </ul>
+                        </div>
+                        <div class="lis">
+                            <p>家居家纺</p>
+                            <ul>
+                                <li><a href="#">床上用品</a></li>
+                                <li style="margin-bottom: 10px;"><a href="#">窗帘窗纱</a></li>
+                                <li><a href="#">客厅家具</a></li>
+                                <li><a href="#">卧室家具</a></li>
+                            </ul>
+                        </div>
+                        <div class="lis">
+                            <p>家具建材</p>
+                            <ul>
+                                <li><a href="#">沐浴花洒</a></li>
+                                <li style="margin-bottom: 10px;"><a href="#">厨卫挂件 </a></li>
+                                <li><a href="#">吊灯</a></li>
+                                <li><a href="#">吸顶灯</a></li>
+                            </ul>
+                        </div>
+                        <div class="lis nbr">
+                            <p>汽车配件</p>
+                            <ul>
+                                <li><a href="#">轮胎</a></li>
+                                <li style="margin-bottom: 10px;"><a href="#">行车记录 </a></li>
+                                <li><a href="#">坐垫</a></li>
+                                <li><a href="#">头枕腰靠</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="headerone-search wrapper clearfix">
+        <div class="logo">
+            <a href="index.html"><img src="images/i-3.png" alt=""></a>
+        </div>
+        <h1 class="car-jiesuan">结算页</h1>
+
+
+        <div class="search">
+            <p class="search-kuang">
+                <input type="text" placeholder="请在此输入搜索内容"> <a class="search-a" href=""></a>
+            </p>
+            <p class="search-remen">
+                <span>热门：</span>
+                <a class="afirst" href="">汽车配件</a>
+                <a href="">四川特产</a>
+                <a href="">休闲零食</a>
+                <a href="">家居家纺</a>
+            </p>
+        </div>
+        <div class="car">
+            <div class="yuan"><span>1</span></div>
+            <div class="myCar clearfix">
+                <div class="myCarBtn">
+                    <img src="images/i-5.png" alt="" class="i1">
+                    <span class="i2">我的购物车</span>
+                    <img src="images/i--5.png" alt="" class="i3">
+                </div>
+                <div class="myCarShow">
+                    <img src="images/i-16.png" alt="" class="zhe">
+                    <h1>新加入的商品</h1>
+                    <div class="showBody">
+                        <div class="card clearfix">
+                            <a href="#" class="goto">
+                                <img src="images/i-15.png" alt="">
+                                <p class="p1">后视镜高清夜视倒车影像 趴趴狗行车记录仪 前后双镜头</p>
+                            </a>
+                            <div class="card-r">
+                                <p class="p2">￥189</p>
+                                <a href="javascript:;" class="del">删除</a>
+                            </div>
+                        </div>
+                        <div class="card clearfix">
+                            <a href="#" class="goto">
+                                <img src="images/i-15.png" alt="">
+                                <p class="p1">后视镜高清夜视倒车影像 趴趴狗行车记录仪 前后双镜头</p>
+                            </a>
+                            <div class="card-r">
+                                <p class="p2">￥189</p>
+                                <a href="javascript:;" class="del">删除</a>
+                            </div>
+                        </div>
+                        <div class="card clearfix">
+                            <a href="#" class="goto">
+                                <img src="images/i-15.png" alt="">
+                                <p class="p1">后视镜高清夜视倒车影像 趴趴狗行车记录仪 前后双镜头</p>
+                            </a>
+                            <div class="card-r">
+                                <p class="p2">￥189</p>
+                                <a href="javascript:;" class="del">删除</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showFooter clearfix">
+                        <p>共 <span>2</span> 件商品</p>
+                        <p>共计 <span>￥838</span></p>
+                        <a href="#">去购物车</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="headerone-line"></div>
+</header>
+<div class="yyt8">
+    <div class="wrapper">
+        <h1>选择收货地址</h1>
+        <div class="place-box clearfix">
+            <div class="card on1 on">
+                <p class="moren">默认地址</p>
+                <p class="name">四川成都（<span>刘先生</span> 收）</p>
+                <p class="place">四川成都 武侯区玉林街道办事处 玉林大道123号</p>
+                <a href="#" class="edit">修改</a>
+            </div>
+            <div class="card">
+                <p class="moren">设为默认地址</p>
+                <p class="name">四川成都（<span>刘先生</span> 收）</p>
+                <p class="place">四川成都 武侯区玉林街道办事处 玉林大道123号</p>
+                <a href="#" class="edit">修改</a>
+            </div>
+            <div class="card">
+                <p class="moren">设为默认地址</p>
+                <p class="name">四川成都（<span>刘先生</span> 收）</p>
+                <p class="place">四川成都 武侯区玉林街道办事处 玉林大道123号</p>
+                <a href="#" class="edit">修改</a>
+            </div>
+            <div class="card">
+                <p class="moren">设为默认地址</p>
+                <p class="name">四川成都（<span>刘先生</span> 收）</p>
+                <p class="place">四川成都 武侯区玉林街道办事处 玉林大道123号</p>
+                <a href="#" class="edit">修改</a>
+            </div>
+            <div class="card">
+                <p class="moren">设为默认地址</p>
+                <p class="name">四川成都（<span>王先生</span> 收）</p>
+                <p class="place">四川成都 武侯区玉林街道办事处 玉林大道123号</p>
+                <a href="#" class="edit">修改</a>
+            </div>
+            <a class="card-new" href="javascript:;"></a>
+        </div>
+        <div class="ziti"><p><span class="title">自提点</span><span class="n-p">刘先生    四川成都 武侯区玉林街道办事处 玉林大道南路123号华林小区四十六栋   152*****1468  </span></p></div>
+        <h1>选择支付方式</h1>
+        <div class="pay-box clearfix">
+            <div class="card fl on">支付宝支付<input type="radio" name="pay"/></div>
+            <div class="card fl">支付宝支付<input type="radio" name="pay"/></div>
+            <div class="card fl">支付宝支付<input type="radio" name="pay"/></div>
+        </div>
+        <h1>使用优惠券</h1>
+        <div class="discount-box clearfix">
+            <div class="check-content fl">
+                <input type="checkbox" class="check-use"/>
+            </div>
+            <div class="xiala-content content1 fl clearfix">
+                <span class="title fl">抵用优惠券：</span>
+                <div class="xiala-box fl">
+                    <div class="zhedang"></div>
+                    <span class="moren">选择优惠券</span>
+                    <select class="select" name="" id="">
+                        <option value="">选择优惠券</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <h1>使用余额</h1>
+        <div class="discount-box clearfix">
+            <div class="check-content fl">
+                <input type="checkbox" class="check-use"/>
+            </div>
+            <div class="xiala-content content1 fl clearfix">
+                <span class="title fl">使用账户余额：</span>
+                <input type="text" class="input fl" value="123456.00"/>
+                <span class="yuan fl">元</span>
+                <span class="canuse fl">当前可用余额为：<span class="num">9999999.00</span></span>
+            </div>
+        </div>
+        <h1>开发票</h1>
+        <div class="discount-box clearfix">
+            <div class="check-content fl">
+                <input type="checkbox" class="check-use"/>
+            </div>
+            <div class="xiala-content content2 fl clearfix">
+                <span class="title fl">开发票：</span>
+                <div class="xiala-box fl">
+                    <div class="zhedang"></div>
+                    <span class="moren">选择发票类型</span>
+                    <select class="select" name="" id="">
+                        <option value="">选择发票类型</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                    </select>
+                </div>
+            </div>
+            <div class="xiala-content content3 fl clearfix" style="margin: 0 0 0 20px;">
+                <div class="xiala-box fl">
+                    <div class="zhedang"></div>
+                    <span class="moren">选择发票内容</span>
+                    <select class="select" name="" id="">
+                        <option value="">选择发票内容</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <h1 class="clearfix">确认订单信息 <a href="#" class="back">返回购物车修改</a></h1>
+        <table class="table first">
+            <tr class="hd1"><td class="td1"></td><td class="td2">商品</td><td class="td3">单位（元）</td><td class="td4">数量</td><td class="td5">小计（元）</td></tr>
+        </table>
+        <table class="table">
+            <tr class="hd2"><td class="td1" colspan="5">店铺：四川特产-张飞牛肉</td></tr>
+            <tr class="bd">
+                <td class="td1"><a href=""><img src="temp/5-2.png" alt=""/></a></td>
+                <td class="td2"><a href=""><p class="p1">禧天龙Citylong 塑料收纳箱整理箱大号环保储物箱3个装 卡其色60L</p><p class="p2">颜色：卡其色 <br/> 容量：60L</p></a></td>
+                <td class="td3">$3549</td>
+                <td class="td4">5</td>
+                <td class="td5">$999999</td>
+            </tr>
+            <tr class="bd-no"><td colspan="5"></td></tr>
+            <tr class="bd">
+                <td class="td1"><a href=""><img src="temp/5-2.png" alt=""/></a></td>
+                <td class="td2"><a href=""><p class="p1">禧天龙Citylong 塑料收纳箱整理箱大号环保储物箱3个装 卡其色60L</p><p class="p2">颜色：卡其色 <br/> 容量：60L</p></a></td>
+                <td class="td3">$3549</td>
+                <td class="td4">5</td>
+                <td class="td5">$999999</td>
+            </tr>
+        </table>
+        <table class="table last">
+            <tr class="hd3">
+                <td class="td1">买家留言:</td>
+                <td class="td2"><textarea class="fl"></textarea></td>
+                <td class="td3">
+                    选择物流：
+                    <div class="xiala-box fr">
+                        <span class="moren">普通配送（免邮）</span>
+                        <select class="select" name="" id="">
+                            <option value="">普通配送（免邮）</option>
+                            <option value="">普通配送（免邮）1</option>
+                            <option value="">普通配送（免邮）2</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="info-content">
+            <div class="info-row clearfix"><div class="title fl">实付款：</div><div class="num fl">￥489</div></div>
+            <div class="info-row clearfix"><div class="title fl">数量：</div><div class="num fl">1</div></div>
+            <div class="info-row clearfix"><div class="title fl">运费：</div><div class="num fl">9</div></div>
+            <div class="info-row clearfix"><div class="title fl">可获得积分：</div><div class="num fl">489积分</div></div>
+            <div class="submit-row clearfix"><div class="title fl">应付总额：<span>￥456</span></div><button class="submit fl">提交订单</button></div>
+        </div>
+    </div>
+</div>
+<div class="yyt1">
+    <div class="wrapper clearfix">
+        <div class="guess louceng" id="L10">
+            <div class="guessHeader clearfix"><h1>猜你喜欢</h1><img src="images/i-l10-1.png" alt=""><a href="javascript:;" class="new">换一批</a><i></i></div>
+            <div class="guessBody clearfix">
+                <a href="#" class="card">
+                    <img src="temp/L10-1.png" alt="" class="pic-change">
+                    <div class="cardBottom">
+                        <p class="name">TCL客厅灯卧室灯 简欧吊灯餐厅卧室灯具</p>
+                        <p class="price">¥ 699</p>
+                    </div>
+                </a>
+                <a href="#" class="card">
+                    <img src="temp/L10-2.png" alt="" class="pic-change">
+                    <div class="cardBottom">
+                        <p class="name">（龙井+碧螺春+普洱茶）茗茶组合装三罐 275g</p>
+                        <p class="price">¥ 65</p>
+                    </div>
+                </a>
+                <a href="#" class="card">
+                    <img src="temp/L10-3.png" alt="" class="pic-change">
+                    <div class="cardBottom">
+                        <p class="name">老川东麻辣牛肉干100g 麻辣零食 麻辣味</p>
+                        <p class="price">¥ 699</p>
+                    </div>
+                </a>
+                <a href="#" class="card">
+                    <img src="temp/L10-4.png" alt="" class="pic-change">
+                    <div class="cardBottom">
+                        <p class="name">睡眠博士 决明子荞麦护颈纤维枕头 枕芯</p>
+                        <p class="price">¥ 699</p>
+                    </div>
+                </a>
+                <a href="#" class="card">
+                    <img src="temp/L10-5.png" alt="" class="pic-change">
+                    <div class="cardBottom">
+                        <p class="name">探路者TOREAD户外套绒冲锋衣 男-南瓜橘</p>
+                        <p class="price">¥ 699</p>
+                    </div>
+                </a>
+                <a href="#" class="card">
+                    <img src="temp/L10-6.png" alt="" class="pic-change">
+                    <div class="cardBottom">
+                        <p class="name">米其林轮胎 205/55R16 PRIMACY 3ST 浩悦 91W</p>
+                        <p class="price">¥ 699</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="index-footer">
+    <div class="more clearfix">
+        <div class="wrapper">
+            <a href="#"><img src="images/i-42.png" alt=""></a><a href="#"><img src="images/i-43.png" alt=""></a>
+            <a href="#"><img src="images/i-44.png" alt=""></a><a href="#"><img src="images/i-45.png" alt=""></a>
+        </div>
+    </div>
+    <div class="footertop">
+        <div class="wrapper">
+            <div class="ft-ullist clearfix" >
+                <ul>
+                    <li class="ft-ullist-title">购物指南</li>
+                    <li><a href="">购物流程</a></li>
+                    <li><a href="">会员介绍</a></li>
+                    <li><a href="">生活旅行/团购</a></li>
+                    <li><a href="">常见问题</a></li>
+                    <li><a href="">大家电</a></li>
+                    <li><a href="">联系客服</a></li>
+                </ul>
+                <ul>
+                    <li class="ft-ullist-title">配送方式</li>
+                    <li><a href="">上门自提</a></li>
+                    <li><a href="">211限时达</a></li>
+                    <li><a href="">配送服务查询</a></li>
+                    <li><a href="">配送费收取标准</a></li>
+                    <li><a href="">海外配送</a></li>
+                </ul>
+                <ul>
+                    <li class="ft-ullist-title">支付方式</li>
+                    <li><a href="">货到付款</a></li>
+                    <li><a href="">在线支付</a></li>
+                    <li><a href="">分期付款</a></li>
+                    <li><a href="">邮局汇款</a></li>
+                    <li><a href="">公司转账</a></li>
+                </ul>
+                <ul>
+                    <li class="ft-ullist-title">售后服务</li>
+                    <li><a href="">售后政策</a></li>
+                    <li><a href="">价格保护</a></li>
+                    <li><a href="">退款说明</a></li>
+                    <li><a href="">返修/退换货</a></li>
+                    <li><a href="">取消订单</a></li>
+                </ul>
+                <ul>
+                    <li class="ft-ullist-title">商家服务</li>
+                    <li><a href="">商家入驻</a></li>
+                    <li><a href="">商家中心</a></li>
+                    <li><a href="">商城规则</a></li>
+                    <li><a href="">运营服务</a></li>
+                </ul>
+                <div class="us">
+                    <div class="row clearfix">
+                        <div class="roww fl"><img src="images/i-46.png" alt=""><p>FDmall&nbsp;&nbsp;APP下载</p></div>
+                        <div class="roww fr"><img src="images/i-46.png" alt=""><p>FDmall&nbsp;&nbsp;官方微信 </p></div>
+                    </div>
+                    <p class="p1">24小时全国免费服务热线</p>
+                    <p class="phone">400-888-888</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footerbottom">
+        <div class="wrapper">
+            <p>蜀ICP备00000000号  方法数码 © 2016, 四川方法数码科技有限公司</p>
+        </div>
+    </div>
+</footer>
+<div class="pop-shadow" style="display:none;"></div>
+<div class="add-place">
+    <a href="javascript:;" class="close fr"></a><div class="clearfix"></div>
+    <h1>新增收货地址</h1>
+    <div class="input-row clearfix"><div class="row-l fl"><label>收货人：</label><span class="must">*</span></div><div class="row-r fl"><input type="text" class="input"/></div></div>
+    <div class="input-row clearfix">
+        <div class="row-l fl"><label>所在地区：</label><span class="must">*</span></div>
+        <div class="row-r fl">
+            <div class="xiala-box fl">
+                <span class="moren">省份</span>
+                <select class="select" name="" id="">
+                    <option value="">普通配送（免邮）</option>
+                    <option value="">普通配送（免邮）1</option>
+                    <option value="">普通配送（免邮）2</option>
+                </select>
+            </div>
+            <div class="xiala-box fl">
+                <span class="moren">城市</span>
+                <select class="select" name="" id="">
+                    <option value="">普通配送（免邮）</option>
+                    <option value="">普通配送（免邮）1</option>
+                    <option value="">普通配送（免邮）2</option>
+                </select>
+            </div>
+            <div class="xiala-box fl">
+                <span class="moren">区县</span>
+                <select class="select" name="" id="">
+                    <option value="">普通配送（免邮）</option>
+                    <option value="">普通配送（免邮）1</option>
+                    <option value="">普通配送（免邮）2</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="input-row clearfix"><div class="row-l fl"><label>详细地址：</label><span class="must">*</span></div><div class="row-r fl"><textarea></textarea></div></div>
+    <div class="input-row clearfix"><div class="row-l fl"><label>手机号码：</label><span class="must">*</span></div><div class="row-r fl"><input type="text" class="input"/></div></div>
+    <div class="input-row clearfix"><div class="row-l fl"><label>固定电话：</label></div><div class="row-r fl"><input type="text" class="input"/></div></div>
+    <div class="submit-row">
+        <div class="check-content fl"><input type="checkbox" class="check-use"/></div><span>设置为默认地址</span>
+        <button type="button" class="yes">确认</button>
+    </div>
+</div>
+
+
+<script  type="text/javascript">
+    //选择默认和地址变更
+    $('.place-box').find('.moren').click(function(e){
+        e.stopPropagation();
+        $(this).html('默认地址');
+        $(this).parents('.card').addClass('on1');
+        $(this).parents('.card').siblings().find('.moren').html('设为默认地址');
+        $(this).parents('.card').siblings().removeClass('on1');
+    });
+    $('.place-box').find('.card').click(function(){
+        $(this).addClass('on');
+        $(this).siblings().removeClass('on');
+        var _name=$(this).find('.name span').text();
+        var _place=$(this).find('.place').text();
+        var _np=_name+ "&nbsp;&nbsp;&nbsp;&nbsp;" + _place;
+        $('.ziti').find('.n-p').html(_np);
+    });
+    //支付方式
+    $('.pay-box').find('.card').click(function(){
+        $(this).addClass('on');
+        $(this).siblings().removeClass('on');
+    });
+    //使用券
+    //储存默认值
+    var _moren1=$('.xiala-content.content1').find('.moren').html();
+    var _moren2=$('.xiala-content.content2').find('.moren').html();
+    var _moren3=$('.xiala-content.content3').find('.moren').html();
+    $('.check-use').click(function(){
+        if(!$(this).parent().is('.on')){
+            $(this).parent().addClass('on');
+            $(this).parents('.discount-box').find('.zhedang').hide();
+            $(this).parents('.discount-box').find('.moren').css('color','#4c4c4c');
+        }else{
+            $(this).parent().removeClass('on');
+            $(this).parents('.discount-box').find('.zhedang').show();
+            $(this).parents('.discount-box').find('.content1 .moren').html(_moren1).css('color','#999');
+            $(this).parents('.discount-box').find('.content2 .moren').html(_moren2).css('color','#999');
+            $(this).parents('.discount-box').find('.content3 .moren').html(_moren3).css('color','#999');
+        }
+    });
+    //下拉选中
+    $('.select').change(function(){
+        var key=$(this).find('option:selected').html();
+        $(this).parent().find('.moren').html(key);
+    });
+    //新增地址
+    $('.place-box').find('.card-new').click(function(){
+        $('.add-place').show();
+        $('.pop-shadow').show();
+    });
+    //关闭
+    $('.close').click(function(){
+        $('.add-place').hide();
+        $('.pop-shadow').hide();
+    })
+
+
+
+
+</script>
+<script type="text/javascript" src="js/public.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>

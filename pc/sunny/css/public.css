@@ -1,0 +1,110 @@
+@charset "utf-8";
+/*************************************
+*样式主文件
+*@ShenYang
+*604311189
+*2016-01-30
+*************************************/
+/* CSS Document */
+
+/*NA-UI功能样式及布局系统*/
+body { box-sizing: content-box; font: normal 12px/1.5 \5fae\8f6f\96c5\9ed1, arial, \5b8b\4f53 ; min-width: 900px; background-color: white; }
+img { display: inline; border: none; -ms-interpolation-mode: bicubic; }
+ul li { list-style-type: none; border: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+input,
+textarea { border: none; font: normal 12px/1.5 \5fae\8f6f\96c5\9ed1, arial, \5b8b\4f53; }
+
+/*在谷歌和火狐下不能拖拽*/
+textarea { resize: none; }
+
+/*去掉默认边框*/
+input,
+button,
+select,
+textarea,
+a { outline: none; background-color: transparent; color: #666666;}
+
+/* 只支持IE，过多使用效率低 */
+a { blr: expression(this.onFocus=this.close()); blr: expression(this.onFocus=this.blur()); }
+/* IE不支持 */
+a:focus { -moz-outline-style: none; outline: none; }
+/*a:hover{color:#76b234;}*/
+/*浮动*/
+.fl { float: left; }
+.fr { float: right; }
+
+/*清除浮动*/
+.clearfix:after { height: 0; content: ""; display: block; clear: both; visibility: hidden; font-size: 0; }
+.clearfix { zoom: 1; }
+* html .clearfix { zoom: 1; }
+
+/* IE6 */
+*:first-child + html .clearfix { zoom: 1; }
+
+/* IE7 */
+.clear { clear: both; height: 0; font-size: 0; }
+
+/*字体样式*/
+/*a { color: #3c3c3c; }*/
+.yahei { font-family: 'Microsoft YaHei'; }
+.songti { font-family: 'Arial'; }
+.wrapper{width: 1200px; margin:0 auto;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+
+/*头部底部TOTOP*/
+.head-index .logo{margin-top: 18px;width: 170px;height: 50px;float: left}
+.head-index  .nav{ height:90px; line-height:90px;   position:relative; z-index:1;float: right;margin-right: -20px; }
+.head-index   .nav a{ color:#3f3a39;  }
+.head-index   .nav .nLi{ float:left;  position:relative; display:inline;  }
+.head-index   .nav .nLi h3{ float:left;font-weight: 500;  }
+.head-index   .nav .nLi h3:hover{border-top: 3px solid #6dba44;box-shadow:0 0 18px #eee,  0 0 10px #eee,  0 -9px 10px #eee ;}
+.head-index   .nav .nLi h3 a{ display:block; padding:0 20px; font-size:14px; }
+.head-index   .nav .sub{ display:none; width:109px; left:0; top:90px;  position:absolute; ;background-color: #fff;  line-height:26px; padding:5px 0; }
+.head-index   .nav .sub li{ zoom:1;text-align: center; }
+.head-index   .nav .sub a{ display:block; padding:15px 10px; }
+.head-index   .nav .sub a:hover{  color:#6dba44;  }
+.head-index   .nav .on h3 a{  color:#6dba44;    }
+.footer-index{margin-top: 55px;width: 100%;height: 513px;border-top: 5px solid #6dba44;background: url('../images/footer-bgp.png')}
+.footer-index .content{width: 100%;margin-top: 80px;}
+.footer-index .content .left{float: left;width: 400px;}
+.footer-index .content .left .part1{padding: 10px 0 17px;}
+.footer-index .content .left .part1 img{float: left;width: 54px;height: 46px;margin-right: }
+.footer-index .content .left .part1 h1{float: left;font-size: 16px;color: #3f3a39;font-weight: 500;margin: 18px 0 0 0;}
+.footer-index .content .left .part2 p{font-size: 14px;color: #999;margin-bottom: 20px;}
+.footer-index .content .left .part2 p .shuye1{background: url('../images/footershu1.png') no-repeat;width: 10px;height: 10px;display: block;float: left;margin: 8px 5px 0 0;}
+.footer-index .content .left .part2 p .shuye2{background: url('../images/footershu2.png') no-repeat;width: 10px;height: 10px;display: block;float: left;margin: 8px 5px 0 0;}
+.footer-index .content .left .part2 p .shuye3{background: url('../images/footershu3.png') no-repeat;width: 10px;height: 10px;display: block;float: left;margin: 8px 5px 0 0;}
+.footer-index .content .left .part2 p .xiangxi{color: #666;}
+.footer-index .content .left .morePlace{width: 200px;text-align: center;display: block;background-color: #fff;padding: 5px 0;}
+.footer-index .content .left .morePlace p{width: 80px;float: left; ;color: #8a8a8a;margin: 0 20px 0 40px;}
+.footer-index .content .left .morePlace .morePlacepic{float: left;margin-top: 5px;}
+.footer-index .content .left .part3 p{color: #999;margin-top: 30px;}
+.footer-index .content .right{position: relative; float: left;width: 720px;height: 210px; background: url('../images/footer-r.png') no-repeat;padding:115px 40px 25px; }
+.footer-index .content .right .QR{position: absolute;top:100px;left: 206px;display: none;}
+.footer-index .content .right .card{display: block; width: 291px;height: 75px;padding: 15px 30px 0 30px; float: left;margin:0 12px 15px 0;background-color: #cfe3c4; -moz-border-radius: 5px;  -webkit-border-radius: 5px;  border-radius:5px;}
+.footer-index .content .right .card .card-l{float: left;width: 60px;padding: 5px 0;margin-top: 10px; background-color: #99d579; -moz-border-radius: 15px;  -webkit-border-radius: 15px;  border-radius:15px;text-align: center;font-size: 20px;color: #fff;}
+.footer-index .content .right .card .card-r{float: left;margin-left: 15px;}
+.footer-index .content .right .card .card-r h1{font-size: 30px;color: #6dba44;font-weight: 500;}
+* +html .footer-index .content .right .card .card-r h1{font-size: 20px;}/* 仅IE7 识别 */
+.footer-index .content .right .card .card-r .part1{color: #666;}
+.footer-index .content .right .card .card-r .part2{color: #666;padding: 1px 10px;background-color: #ffffff;-moz-border-radius: 15px;  -webkit-border-radius: 15px;  border-radius:15px;}
+* +html .footer-index .content .right .card .card-r .part2{background: url('../images/yuan-footer.png') no-repeat;padding: 3px 9px;}/* 仅IE7 识别 */
+.footer-index .content .right .card .card-r .qww{display: block;float: left;margin: 15px 10px 0 10px;}
+.footer-index .content .right .noColor{background:none;background: url('../images/footer-r1.png') no-repeat;}
+.footer-index .content .right .noRight{margin-right: 0;}
+.to-top{display: block;position: fixed;right:13%;bottom:10%;z-index: 999;opacity: 0.3;}
+.to-top:hover{opacity: 1;}
+
+
+
+
+
+
+
+
+
+
+
+
+

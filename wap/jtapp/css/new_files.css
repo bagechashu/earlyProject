@@ -1,0 +1,49 @@
+.new-login{
+    padding-top: 260px;
+}
+
+.new-login .containt{
+    width: 94%;margin: 0 auto;
+}
+.new-login .containt .row-input{
+    border-bottom: 1px solid #dadada;
+
+}
+.new-login .containt .row-input span{
+    display: inline-block;text-align: center;
+    width: 79px;
+}
+.new-login .containt .row-input label{
+    display: inline-block;
+    width: 129px;font-size: 26px;color: #666;
+}
+.new-login .containt .row-input input{
+    border:none;height: 40px;width: 400px;
+    border-left: 1px solid #dadada;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin:50px 0 20px 0;padding: 0 20px;
+}
+.new-login .containt .row-input .yanzhengma{
+    font-size: 26px;color: #de0011;
+}
+.new-login .containt .row-forget a{
+    font-size: 24px;
+    color: #666;
+    margin: 40px 0 0 0;
+}
+.new-login .containt .submit{
+    display: block;
+    width: 610px;
+    height: 79px;
+    line-height: 79px;
+    text-align: center;
+    border: none;
+    font-size: 32px;
+    color: #fff;
+    background: #de0011;
+    border-radius: 50px;
+    margin: 100px auto;
+}

@@ -1,0 +1,880 @@
+.login {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url("../images/loginbg.png") center no-repeat;
+  background-size: cover;
+}
+.login .containt {
+  text-align: center;
+  width: 616px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -308px;
+  margin-top: -350px;
+}
+.login .containt .formcon {
+  padding-top: 120px;
+}
+.login .containt .inputcon {
+  width: 615px;
+  margin: 30px auto 0;
+  position: relative;
+}
+.login .containt .inputcon input {
+  width: 100%;
+  height: 75px;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  padding-left: 90px;
+  color: #fff;
+}
+.login .containt .inputcon i {
+  display: block;
+  width: 90px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.login .containt .inputcon i.nameicon {
+  background: url("../images/name-icon.png") center no-repeat;
+}
+.login .containt .inputcon i.passicon {
+  background: url("../images/pass-icon.png") center no-repeat;
+}
+.login .containt .subcon {
+  width: 615px;
+  margin: 80px auto 0;
+  position: relative;
+}
+.login .containt .subcon input {
+  width: 100%;
+  height: 75px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  color: #de0011;
+  font-size: 32px;
+  line-height: 75px;
+}
+.opinion {
+  margin-top: 120px;
+}
+.opinion .containt {
+  width: 700px;
+  margin: 0 auto;
+}
+.opinion .containt textarea {
+  width: 100%;
+  height: 288px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 24px;
+  line-height: 50px;
+  color: #666666;
+}
+.opinion .containt .subcon {
+  margin-top: 200px;
+}
+.opinion .containt .subcon input {
+  width: 100%;
+  height: 88px;
+  text-align: center;
+  line-height: 88px;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 3px;
+  background-color: #de0011;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.discuss{
+  padding-top: 100px;
+}
+.discuss .containt {
+  width: 710px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+.discuss .containt li .leftcon {
+  float: left;
+  font-size: 36px;
+  color: #333333;
+  padding-top: 15px;
+}
+.discuss .containt li .leftcon span {
+  font-size: 24px;
+}
+.discuss .containt li .rightcon {
+  float: right;
+  width: 580px;
+}
+.discuss .containt li .rightcon .info-containt {
+  margin-bottom: 20px;
+}
+.discuss .containt li .rightcon .discuss-talk {
+  font-size: 24px;
+  line-height: 40px;
+  color: #333333;
+  padding: 10px 0;
+  max-height: 99999px;
+}
+.discuss .containt li .rightcon .discuss-talk p {
+  max-height: 99999px;
+}
+.discuss .containt li .rightcon .discuss-title {
+  font-size: 26px;
+  line-height: 40px;
+  padding: 15px;
+  background-color: #f3f5f7;
+}
+.discuss .containt li .rightcon .discuss-title a{
+  color: #333333;
+}
+.index-nav {
+  text-align: center;
+  line-height: 79px;
+  height: 79px;
+  border-bottom: 1px solid #dadada;
+  background-color: #ffffff;
+}
+.index-nav a {
+  font-size: 32px;
+  color: #333333;
+  display: block;
+  width: 20%;
+  float: left;
+  height: 79px;
+}
+.index-nav a.on {
+  color: #de0011;
+  border-bottom: 2px solid #de0011 ;
+}
+.videocenter .containt {
+  background-color: #f3f5f7;
+  padding-bottom: 105px;
+}
+.videocenter .containt .list {
+  margin-bottom: 15px;
+  background-color: #ffffff;
+}
+.videocenter .containt .list h1{
+  color: #333;
+}
+.videocenter .containt .video {
+  width: 100%;
+  height: 365px;
+}
+.videocenter .containt .video video {
+  width: 100%;
+  height: 365px;
+}
+.videocenter h1 {
+  height: 80px;
+  padding-left: 70px;
+  background: url("../images/videoicon.png") 23px center no-repeat;
+  font-size: 27px;
+  line-height: 80px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.videocenter .crumbs {
+  color: #666666;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 25px;
+  font-size: 18px;
+}
+.videocenter .crumbs .looknum {
+  padding-left: 30px;
+  background: url("../images/looknum.png") left center no-repeat;
+  display: inline-block;
+  width: 90px;
+}
+.videocenter .crumbs div.fr {
+  font-size: 28px;
+  color: #666666;
+  float: right;
+}
+.videocenter .crumbs div.fr .crumbs-btn {
+  padding-left: 35px;
+  margin-right: 25px;
+  color: #666666;
+}
+.videocenter .crumbs div.fr .zan {
+  background: url("../images/zan-icon.png") left center no-repeat;
+}
+.videocenter .crumbs div.fr .zan.on {
+  background: url("../images/zanon-icon.png") left center no-repeat;
+  color: #dc0011;
+}
+.videocenter .crumbs div.fr .talk {
+  background: url("../images/talk-icon.png") left center no-repeat;
+}
+.videocenter .crumbs div.fr .shouz {
+  background: url("../images/xin-icon.png") left center no-repeat;
+}
+.videocenter .crumbs div.fr .shouz.on {
+  background: url("../images/xinon-icon.png") left center no-repeat;
+  color: #dc0011;
+}
+.videocenter .crumbs div.fr .fenx i {
+  font-size: 28px;
+}
+.videocenter .swiper-container .swiper-slide {
+  position: relative;
+}
+.videocenter .swiper-container .swiper-slide p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 26px;
+  color: #ffffff;
+  line-height: 44px;
+  width: 80%;
+  z-index: 99;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+.videocenter .swiper-container .swiper-pagination {
+  text-align: right;
+}
+.videocenter .swiper-container .swiper-pagination span.swiper-pagination-bullet {
+  background-color: #ffffff;
+  opacity: 1;
+  width: 8px;
+  height: 8px;
+}
+.videocenter .swiper-container .swiper-pagination span.swiper-pagination-bullet-active {
+  background-color: #dc0011;
+}
+.newscontaint {
+  background-color: #f3f5f7;
+  padding-bottom: 97px;
+}
+.newscontaint .newslist {
+  margin-bottom: 25px;
+}
+.newscontaint .newslist .head {
+  padding: 25px 3%;
+  background-color: #ffffff;
+  max-height: 1000px;
+}
+.newscontaint .newslist .head span {
+  font-size: 28px;
+  color: #de0011;
+  font-weight: bold;
+  border-left: 3px solid #de0011;
+  height: 27px;
+  line-height: 27px;
+  padding-left: 9px;
+  display: inline-block;
+}
+.newscontaint .newslist .head a {
+  float: right;
+  font-weight: bold;
+}
+.newscontaint .newslist ul {
+  background-color: #ffffff;
+  padding-bottom: 5px;
+}
+.newscontaint .newslist ul li {
+  width: 94%;
+  margin: 0 auto 25px;
+}
+.newscontaint .newslist ul li a {
+  display: block;
+}
+.newscontaint .newslist ul li img {
+  float: left;
+  width: 104px;
+  height: 105px;
+  margin-right: 20px;
+  display: block;
+}
+.newscontaint .newslist ul li h3 {
+  font-size: 26px;
+  line-height: 40px;
+  color: #333333;
+  height: 80px;
+}
+.newscontaint .newslist ul li div span {
+  float: right;
+  color: #666;
+}
+.newscontaint .newslist ul li div span i {
+  font-size: 24px;
+}
+.newscontaint .newslist ul li div time {
+  font-size: 18px;
+  color: #666666;
+}
+.videodetail {
+  border-bottom: 1px solid #dadada;
+  padding-bottom: 35px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #fff;
+}
+.videodetail .list {
+  position: relative;
+}
+.videodetail .list .laststage {
+  position: absolute;
+  display: block;
+  width: 42px;
+  height: 42px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 42px;
+  left: 15px;
+  top: 15px;
+}
+.videodetail .list .laststage i {
+  font-size: 30px;
+}
+.videodetail .list .crumbs {
+  height: 20px;
+  line-height: 20px;
+}
+.video-detail-main {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 499px 0 97px;
+  overflow: hidden;
+}
+.video-detail-main .containt {
+  width: 200%;
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  padding: 499px 0 97px;
+}
+.video-detail-main .containt .main {
+  width: 50%;
+  float: left;
+  height: 100%;
+  padding: 15px 0 0 0;
+}
+.video-detail-main .containt .main .swiper-container {
+  height: 100%;
+  box-sizing: border-box;
+}
+.video-detail-main .containt .main .swiper-container .swiper-slide {
+  height: auto;
+}
+.other-video li {
+  width: 705px;
+  margin: 22px auto 0;
+}
+.other-video li .imgcon {
+  float: left;
+  width: 140px;
+  position: relative;
+}
+.other-video li .imgcon div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url("../images/star-icon.png") center no-repeat;
+}
+.other-video li .infocon {
+  width: 540px;
+  float: right;
+}
+.other-video li .infocon h2 {
+  font-size: 24px;
+  height: 75px;
+}
+.other-video li .infocon h2 a {
+  color: #333333;
+}
+.other-video li .infocon div {
+  font-size: 24px;
+  color: #666666;
+}
+.other-video li .infocon div .iconfont {
+  font-size: 24px;
+  margin-right: 4px;
+}
+.other-video li .infocon div span {
+  float: right;
+}
+.pingluncon .padding {
+  padding: 0 22px;
+}
+.pingluncon .padding h2 {
+  font-size: 28px;
+  color: #333;
+}
+.pingluncon .padding .infoma .discuss-list {
+  border-bottom: 1px solid #dadada;
+  padding-bottom: 25px;
+  margin-top: 20px;
+}
+.pingluncon .padding .infoma .discuss-list .discuss-peo {
+  line-height: 50px;
+}
+.pingluncon .padding .infoma .discuss-list .discuss-peo img {
+  width: 47px;
+  height: 47px;
+  border-radius: 100%;
+}
+.pingluncon .padding .infoma .discuss-list .discuss-peo span {
+  font-size: 26px;
+  font-weight: bold;
+  color: #666666;
+  margin-left: 5px;
+}
+.pingluncon .padding .infoma .discuss-list .discuss-peo time {
+  float: right;
+  font-size: 18px;
+  color: #999999;
+}
+.pingluncon .padding .infoma .discuss-list .discuss-info {
+  box-sizing: border-box;
+  padding-left: 60px;
+}
+.pingluncon .padding .infoma .discuss-list .discuss-info .discuss-dis {
+  font-size: 24px;
+  color: #666666;
+  line-height: 38px;
+  padding-bottom: 15px;
+  max-height: 10000px;
+}
+.pingluncon .padding .infoma .discuss-list .discuss-info .discuss-reply {
+  font-size: 24px;
+  color: #666666;
+  line-height: 38px;
+  background-color: #f2f2f2;
+  padding: 0px 25px;
+}
+.pingluncon .padding .infoma .discuss-list .discuss-info .discuss-reply li {
+  padding-top: 15px;
+}
+.pingluncon .padding .infoma .discuss-list .discuss-info .discuss-reply li h3 {
+  font-size: 26px;
+  color: #333;
+}
+.pingluncon .padding .infoma .discuss-list .discuss-info .discuss-reply li div {
+  padding: 10px 0;
+  max-height: 10000px;
+}
+.fixnav {
+  width: 100%;
+  height: 96px;
+  border-top: 1px solid #dadada;
+  background-color: #f6f6f6;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.fixnav .pingbtn {
+  float: left;
+  line-height: 96px;
+  font-size: 28px;
+  color: #666666;
+  margin-left: 24px;
+}
+.fixnav .pingbtn i {
+  font-size: 47px;
+}
+.fixnav .changediv {
+  float: right;
+  height: 100%;
+  line-height: 96px;
+  font-size: 32px;
+  color: #666666;
+  width: 100px;
+  overflow: hidden;
+  position: relative;
+  margin-right: 20px;
+}
+.fixnav .changediv div {
+  position: absolute;
+  width: 200px;
+  left: 0;
+  top: 0;
+}
+.fixnav .changediv span {
+  display: block;
+  width: 100px;
+  text-align: center;
+  float: left;
+}
+.fixnav .changediv i {
+  font-size: 38px;
+  margin-right: 5px;
+}
+.fixnav .changediv .zhengwen i {
+  font-size: 25px;
+}
+.fixnav .fxbtn {
+  float: right;
+  margin-right: 24px;
+}
+.fixnav .fxbtn i {
+  font-size: 35px;
+  line-height: 96px;
+}
+.mycollection {
+  padding-top: 110px;
+}
+.mycollection li {
+  width: 700px;
+  margin: 0 auto 25px;
+  position: relative;
+}
+.mycollection li.padd-right {
+  padding-right: 80px;
+}
+.mycollection .imgcon {
+  width: 140px;
+  float: left;
+  margin-right: 18px;
+}
+.mycollection .imgcon img {
+  width: 140px;
+  height: 105px;
+  display: block;
+}
+.mycollection .selcectcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url("../images/yuan.png") 663px center no-repeat;
+  display: none;
+}
+.mycollection .selcectcon input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.mycollection .selcectcon.on {
+  background: url("../images/redyuan.png") 663px center no-repeat;
+  display: block;
+}
+.mycollection .infocon h2 {
+  font-size: 26px;
+  line-height: 40px;
+  height: 75px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
+.mycollection .infocon h2 a {
+  color: #333333;
+}
+.mycollection .infocon time {
+  font-size: 18px;
+  color: #666666;
+}
+.mycollection .deletecon {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left: -350px;
+  padding: 40px 0;
+  background-color: #fff;
+  display: none;
+}
+.mycollection .deletecon a {
+  display: block;
+  width: 700px;
+  height: 88px;
+  background-color: #de0011;
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  line-height: 88px;
+  border-radius: 15px;
+}
+.myvote {
+  width: 100%;
+  padding-top: 110px;
+}
+.myvote .containt {
+  width: 700px;
+  margin: 0 auto;
+}
+.myvote .containt h2 {
+  font-size: 28px;
+  color: #333333;
+  font-weight: bold;
+  line-height: 75px;
+}
+.myvote .containt .people {
+  font-size: 18px;
+}
+.myvote .containt .people span {
+  color: #de0011;
+}
+.myvote .containt .people time {
+  color: #999999;
+}
+.myvote .containt .myvotelist {
+  margin-top: 30px;
+  padding-bottom: 250px;
+}
+.myvote .containt .myvotelist li {
+  height: 85px;
+  border-top: 1px solid #dadada;
+  line-height: 85px;
+  font-size: 26px;
+  color: #333333;
+  position: relative;
+  padding-left: 40px;
+  background: url("../images/peo-icon.png") 2px center no-repeat;
+}
+.myvote .containt .myvotelist li input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.myvote .containt .myvotelist li:last-child {
+  border-bottom: 1px solid #dadada;
+}
+.myvote .containt .myvotelist li.on {
+  background: url("../images/peoon-icon.png") 2px center no-repeat;
+}
+.myvote .containt .myvotelist-result {
+  margin-top: 30px;
+  padding-bottom: 250px;
+}
+.myvote .containt .myvotelist-result li {
+  height: 85px;
+  border-top: 1px solid #dadada;
+  line-height: 85px;
+  font-size: 26px;
+  color: #333333;
+}
+.myvote .containt .myvotelist-result li span {
+  float: right;
+}
+.myvote .containt .myvotelist-result li span.on {
+  color: #dc0011;
+}
+.myvote .containt .myvotelist-result li:last-child {
+  border-bottom: 1px solid #dadada;
+}
+.myvote .containt .subcon {
+  width: 700px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left: -350px;
+  padding: 60px 0 95px;
+  background-color: #fff;
+}
+.myvote .containt .subcon input {
+  -webkit-appearance: none;
+  border: none;
+  width: 100%;
+  height: 87px;
+  line-height: 87px;
+  background-color: #dc0011;
+  color: #FFF;
+  text-align: center;
+  font-size: 36px;
+  border-radius: 15px;
+}
+.personal .my-head {
+  width: 100%;
+  height: 320px;
+  background: url("../images/headbg.png") no-repeat;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 65px;
+}
+.personal .my-head .imgcon {
+  width: 120px;
+  margin: 0 auto;
+  position: relative;
+}
+.personal .my-head .imgcon img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.personal .my-head .imgcon input {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.personal .my-head p {
+  color: #fff;
+  font-size: 36px;
+  line-height: 50px;
+  margin-top: 15px;
+  letter-spacing: 3px;
+}
+.personal .personal-nav {
+  background-color: #ffffff;
+  margin-top: 25px;
+}
+.personal .personal-nav li {
+  height: 87px;
+  border-bottom: 1px solid #dadada;
+  line-height: 87px;
+  width: 705px;
+  margin: 0 auto;
+}
+.personal .personal-nav li a {
+  display: block;
+  font-size: 30px;
+  color: #333333;
+}
+.personal .personal-nav li a label {
+  position: relative;
+}
+.personal .personal-nav li a i {
+  font-size: 35px;
+  margin-right: 20px;
+}
+.personal .personal-nav li a span {
+  float: right;
+  background: url("../images/jt-icon.png") center no-repeat;
+  width: 25px;
+  height: 87px;
+  display: block;
+}
+.personal .personal-nav li a b {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background-color: #dc0011;
+  border-radius: 50%;
+  position: absolute;
+  right: -20px;
+  top: 0;
+}
+.personal .personal-nav li:last-child {
+  border-bottom: none;
+}
+.news-detial {
+  position: fixed;
+  width: 100%;
+  top: 88px;
+  left: 0;
+  z-index: 100;
+  background-color: #fff;
+}
+.news-detial h2 {
+  font-size: 28px;
+  color: #333333;
+  line-height: 48px;
+  width: 94%;
+  margin: 0 auto;
+  font-weight: bold;
+  height: 140px;
+  padding: 10px 0;
+}
+.news-detial-main {
+  padding: 300px 0 97px;
+}
+.news-detial-main .containt {
+  padding: 300px 0 97px;
+}
+.news-detial-main .containt .other-video img {
+  max-width: 100%;
+  display: block;
+}
+.news-detial-main .containt .other-video .swiper-slide .news-detial-info {
+  font-size: 24px;
+  line-height: 38px;
+  color: #333333;
+  width: 94%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.entering-modal{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: none;
+}
+.entering-modal .modal-bg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0,.5);
+}
+.entering-modal .modal-input{
+  width: 100%;
+  padding: 20px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.entering-modal .modal-input .text-con{
+  padding: 15px 0 25px 0;
+}
+.entering-modal .modal-input .text-con textarea{
+  display: block;
+  width: 94%;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  height: 100px;
+  margin-left: 3%;
+  color: #666;
+  background-color: #f0f0f0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.entering-modal .modal-input .input-con{
+  width: 94%;
+  margin: 0 auto;
+  text-align: right;
+  padding-bottom: 15px;
+}
+.entering-modal .modal-input .input-con input{
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  font-size: 28px;
+  padding: 5px 20px;
+}

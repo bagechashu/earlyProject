@@ -1,0 +1,58 @@
+﻿@charset "utf-8";
+/*************************************
+*样式主文件
+*@ShenYang
+*604311189
+*2016-01-30
+*************************************/
+/* CSS Document */
+
+/*NA-UI功能样式及布局系统*/
+body { box-sizing: content-box; font: normal 12px/1.5 \5fae\8f6f\96c5\9ed1, arial, \5b8b\4f53 ; min-width: 900px;}
+img { display: inline; border: none; -ms-interpolation-mode: bicubic; }
+ul li { list-style-type: none; border: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+input,
+textarea { border: none; font: normal 12px/1.5 \5fae\8f6f\96c5\9ed1, arial, \5b8b\4f53; }
+
+/*在谷歌和火狐下不能拖拽*/
+textarea { resize: none; }
+
+/*去掉默认边框*/
+input,
+button,
+select,
+textarea,
+a { outline: none; background-color: transparent;}
+
+/* 只支持IE，过多使用效率低 */
+a { blr: expression(this.onFocus=this.close()); blr: expression(this.onFocus=this.blur()); }
+/* IE不支持 */
+a:focus { -moz-outline-style: none; outline: none; }
+
+/*浮动*/
+.fl { float: left; }
+.fr { float: right; }
+
+/*清除浮动*/
+.clearfix:after { height: 0; content: ""; display: block; clear: both; visibility: hidden; font-size: 0; }
+.clearfix { zoom: 1; }
+* html .clearfix { zoom: 1; }
+
+/* IE6 */
+*:first-child + html .clearfix { zoom: 1; }
+
+/* IE7 */
+.clear { clear: both; height: 0; font-size: 0; }
+
+/*字体样式*/
+a { color: #333; }
+body { font-family: 'Microsoft YaHei';background: url("../images/bg.png") center top no-repeat}
+footer{
+    width: 1000px;
+    margin: 0 auto;
+    background: #dcdcdc;
+    line-height: 20px;
+    text-align: center;
+    padding: 15px 0;
+}

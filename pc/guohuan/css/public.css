@@ -1,0 +1,142 @@
+@charset "utf-8";
+/*************************************
+*样式主文件
+*@ShenYang
+*604311189
+*2016-01-30
+*************************************/
+/* CSS Document */
+
+/*NA-UI功能样式及布局系统*/
+
+body { box-sizing: content-box; font: normal 14px/1.5 \5fae\8f6f\96c5\9ed1, Microsoft YaHei, \5b8b\4f53 ; min-width: 900px; background-color: #fff; }
+img { display: inline; border: none; -ms-interpolation-mode: bicubic; }
+ul li { list-style-type: none; border: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+input,
+textarea { border: none; font: normal 12px/1.5 \5fae\8f6f\96c5\9ed1, arial, \5b8b\4f53; }
+
+/*在谷歌和火狐下不能拖拽*/
+textarea { resize: none; }
+
+/*去掉默认边框*/
+input,
+button,
+select,
+textarea,
+a { outline: none; background-color: transparent; color: #666666;}
+
+/* 只支持IE，过多使用效率低 */
+a { blr: expression(this.onFocus=this.close()); blr: expression(this.onFocus=this.blur()); }
+/* IE不支持 */
+
+a:focus { -moz-outline-style: none; outline: none; }
+/*a:hover{color:#76b234;}*/
+/*浮动*/
+.fl { float: left; }
+.fr { float: right; }
+.nmr{margin-right: 0!important;}
+.nml{margin-left: 0!important;}
+.nmb{margin-bottom: 0!important;}
+.nmt{margin-top: 0!important;}
+.nomore{white-space: nowrap;text-overflow:ellipsis; overflow:hidden;}
+
+/*清除浮动*/
+.clearfix:after { height: 0; content: ""; display: block; clear: both; visibility: hidden; font-size: 0; }
+.clearfix { zoom: 1; }
+* html .clearfix { zoom: 1; }
+
+/* IE6 */
+*:first-child + html .clearfix { zoom: 1; }
+
+/* IE7 */
+.clear { clear: both; height: 0; font-size: 0; }
+
+/*字体样式*/
+/*a { color: #3c3c3c; }*/
+.yahei { font-family: 'Microsoft YaHei'; }
+.songti { font-family: 'Arial'; }
+
+
+
+.wrapper{width: 1200px; margin:0 auto;position: relative;}
+a:hover{color: #006bb5!important;}
+
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('font/iconfont.eot');
+    src: url('font/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('font/iconfont.woff') format('woff'),
+    url('font/iconfont.ttf') format('truetype'),
+    url('font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*动画*/
+.transition-03s{transition: all 0.3s linear;}
+/*头部*/
+.header-index{height: 105px;line-height: 105px;}
+.header-index .logo-content{opacity: 0;position: absolute;left: 0;top: 80px;}
+.header-index .logo-content .logo{vertical-align: middle;margin: 0 10px 0 0;padding: 0 0 10px 0;}
+.header-index .logo-content span{ font-size: 22px;color: #666;}
+/** +html .header-index .nav{margin: -60px 0 0 0;}*/
+.header-index .nav li{float: left;margin: 0 35px 0 0;}
+.header-index .nav li a{font-size: 16px;color: #333;position: relative;}
+.header-index .nav li.on a{font-size: 16px;color: #007ac5;font-weight: 600;}
+.header-index .nav li a .line{position: absolute;bottom: -7px;left: 0;width:0;height: 2px;transition: all 0.3s linear;background: #007ac5;}
+.header-index .nav li a:hover .line,.header-index .nav li.on a .line{width: 60px;}
+.header-index .search-content{ padding-top: 45px;cursor: pointer;}
+.header-index .search-content .search-off{}
+.header-index .search-content .search-on{width: 163px;height: 26px;background: url("../images/i-3.png") no-repeat;position: relative;display: none;margin: -4px 0 0 0;}
+.header-index .search-content .search-on input{position: absolute;left: 0;top: 3px;padding-left: 10px;}
+.header-index .search-content .search-on .search-btn{position: absolute;right: 10px;top: 4px;display: block;margin: 0;padding: 0;background: url("../images/i-1.png") no-repeat;width: 16px;height: 16px;border: none;cursor: pointer;}
+/*底部*/
+.footer-index{padding-bottom: 20px;height: 200px;}
+.footer-index .part-l{}
+.footer-index .part-l .p1{font-size: 12px;color: #666;margin: 20px 0;}
+.footer-index .part-l .p2{font-size: 12px;color: #999;line-height: 24px;}
+.footer-index .part-r{width: 110px;border-left: 1px solid #ddd;padding-left: 40px;margin: 30px 0 0 0;}
+.footer-index .part-r .box{text-align: center;}
+.footer-index .part-r p{margin: 0 0 15px 0;}
+.footer-index .part-r p a{font-size: 12px;color: #999;}
+.footer-index .part-r img{width: 110px;height: 110px;}
+/*顶部*/
+.footer-index .top-content{position: fixed;right: 12%;top: 70%;display: none;}
+.footer-index .top-content .a1{font-size: 12px;color: #fff;background: #007ac5 url("../images/i-qq.png") 20px 10px no-repeat;display: block;width: 60px;height: 60px;line-height: 95px;text-align: center;}
+.footer-index .top-content .a1:hover{color: #fff!important;}
+.footer-index .top-content .a2{display: block;width: 60px;height: 60px;background: #d9d9d9 url("../images/i-6.png") 15px 15px no-repeat;}
+/*内页通用-大图，导航*/
+.article-main .pic-content{width: 100%;height: 400px;position: relative;overflow: hidden;}
+.article-main .pic-content .box{width: 1920px;position: absolute;left: 50%;margin-left:-960px;top: 0; }
+.article-main .pic-content .box .pic-big{width: 100%;}
+
+.article-main .nav-big{line-height: 50px;height: 50px;}
+.article-main .nav-big table{width: 100%;}
+.article-main .nav-big table td{position: relative; text-align: center;font-size: 16px;border-left: 1px solid #e6e6e6;border-right: 1px solid #e6e6e6;}
+.article-main .nav-big table td img{    position: absolute;  bottom: -50px;  left: 43%;display: none;}
+.article-main .nav-big table td.on img{display: block;}
+.article-main .nav-big table td.on{background: #007ac5;}
+.article-main .nav-big table td.on a{color: #fff;}
+.article-main .nav-big table td.on a:hover{color: #fff!important;}
+.article-main .article-content{background: #f3f3f3;padding: 50px 0;}
+.article-main .article-content .title{padding: 20px 0 70px;}
+.article-main .article-content .title .p1{font-size: 26px;font-weight: 600;color: #999;font-family: Georgia;text-transform:uppercase;}
+.article-main .article-content .title .p2{font-size: 26px;color: #333;margin: 0 0 10px 0;}
+.article-main .article-content .title .line{width: 40px;height: 1px;border-bottom: 1px solid #666;}
+.article-main .article-content .edit-content{color: #666;line-height: 30px;text-indent: 2em;}
+.article-main .article-content .title-2{font-size: 20px;color: #333;text-align: center;margin-bottom: 40px;}
+
+
+
+
+/*分页*/
+.fenye{text-align: center;height: 40px;}
+.fenye a{padding: 5px 11px 6px;background: #fff;border: 1px solid #e6e6e6;}
+.fenye a.on{background: #007ac5;color: #fff;}
+.fenye a.on:hover{color: #fff!important;}

@@ -1,0 +1,158 @@
+@charset "utf-8";
+/*************************************
+*样式主文件
+*@ShenYang
+*604311189
+*2016-01-30
+*************************************/
+/* CSS Document */
+
+/*NA-UI功能样式及布局系统*/
+
+body { box-sizing: content-box; font: normal 14px/1.5 \5fae\8f6f\96c5\9ed1, Microsoft YaHei, \5b8b\4f53 ; min-width: 900px; background-color: #fff; }
+/*解决：滚动条有无产生的跳动*/
+html {overflow-y: scroll;}
+:root {overflow-y: auto;overflow-x: hidden;}
+:root body {position: absolute;}
+body {width: 100vw;overflow: hidden;}
+
+img { display: inline; border: none; -ms-interpolation-mode: bicubic; }
+ul li { list-style-type: none; border: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+input, textarea {color: inherit;font-size: inherit; font-family: inherit;}
+
+/*在谷歌和火狐下不能拖拽*/
+textarea { resize: none; }
+
+/*去掉默认边框*/
+input,
+button,
+select,
+textarea,
+a { outline: none; background-color: transparent; color: #666666;}
+/* 只支持IE，过多使用效率低 */
+a { blr: expression(this.onFocus=this.close()); blr: expression(this.onFocus=this.blur()); }
+/* IE不支持 */
+a:focus { -moz-outline-style: none; outline: none; }
+/*清除浮动*/
+.clearfix:after { height: 0; content: ""; display: block; clear: both; visibility: hidden; font-size: 0; }
+.clearfix { zoom: 1; }
+* html .clearfix { zoom: 1; }
+/* IE6 */
+*:first-child + html .clearfix { zoom: 1; }
+/* IE7 */
+.clear { clear: both; height: 0; font-size: 0; }
+
+
+/* Backgrounds */
+.bg-navy { background-color: #001F3F; }
+.bg-blue { background-color: #0074D9; }
+.bg-aqua { background-color: #7FDBFF; }
+.bg-teal { background-color: #39CCCC; }
+.bg-olive { background-color: #3D9970; }
+.bg-green { background-color: #2ECC40; }
+.bg-lime { background-color: #01FF70; }
+.bg-yellow { background-color: #FFDC00; }
+.bg-orange { background-color: #FF851B; }
+.bg-red { background-color: #FF4136; }
+.bg-fuchsia { background-color: #F012BE; }
+.bg-purple { background-color: #B10DC9; }
+.bg-maroon { background-color: #85144B; }
+.bg-white { background-color: #FFFFFF; }
+.bg-gray { background-color: #AAAAAA; }
+.bg-silver { background-color: #DDDDDD; }
+.bg-black { background-color: #111111; }
+/* Colors */
+.navy { color: #001F3F; }
+.blue { color: #0074D9; }
+.aqua { color: #7FDBFF; }
+.teal { color: #39CCCC; }
+.olive { color: #3D9970; }
+.green { color: #2ECC40; }
+.lime { color: #01FF70; }
+.yellow { color: #FFDC00; }
+.orange { color: #FF851B; }
+.red { color: #FF4136; }
+.fuchsia { color: #F012BE; }
+.purple { color: #B10DC9; }
+.maroon { color: #85144B; }
+.white { color: #FFFFFF; }
+.silver { color: #DDDDDD; }
+.gray { color: #AAAAAA; }
+.black { color: #111111; }
+/* Border colors */
+.border--navy { border-color: #001F3F; }
+.border--blue { border-color: #0074D9; }
+.border--aqua { border-color: #7FDBFF; }
+.border--teal { border-color: #39CCCC; }
+.border--olive { border-color: #3D9970; }
+.border--green { border-color: #2ECC40; }
+.border--lime { border-color: #01FF70; }
+.border--yellow { border-color: #FFDC00; }
+.border--orange { border-color: #FF851B; }
+.border--red { border-color: #FF4136; }
+.border--fuchsia { border-color: #F012BE; }
+.border--purple { border-color: #B10DC9; }
+.border--maroon { border-color: #85144B; }
+.border--white { border-color: #FFFFFF; }
+.border--gray { border-color: #AAAAAA; }
+.border--silver { border-color: #DDDDDD; }
+.border--black { border-color: #111111; }
+/*常用快捷*/
+.yahei { font-family: 'Microsoft YaHei'; }
+.songti { font-family: 'Arial'; }
+.fl { float: left; }
+.fr { float: right; }
+.nmr{margin-right: 0!important;}
+.nml{margin-left: 0!important;}
+.nmb{margin-bottom: 0!important;}
+.nmt{margin-top: 0!important;}
+.nomore{white-space: nowrap;text-overflow:ellipsis; overflow:hidden;}
+.trans{  -webkit-transition:all .3s linear;  transition:all .3s linear;  }
+/* 大小不定元素垂直居中 让子inline-block化，再在后面添加一个隐藏的垂直居中的inline-block元素实现*/
+.dib-vm{display:inline-block;*display:inline;*zoom:1;width:0; height:100%; vertical-align:middle;}
+
+
+.wrapper{width: 1200px; margin:0 auto;}
+a:hover{color: #ce0c26!important;}
+
+
+/*头部*/
+.header-index{height: 117px;line-height: 117px;position: relative;z-index: 2;}
+.header-index .logo{height: 117px;}
+.header-index .logo img{vertical-align: middle}
+.header-index .nav>li+li{margin: 0 0 0 25px;}
+.header-index .nav>li .s1{position: relative;padding: 0 5px;color: #333;cursor: pointer;}
+.header-index .nav>li .s1 .line{width:0;height: 2px;background: #ce0c26;position: absolute;left: 0;top:40px;}
+.header-index .nav>li .s1:hover .line{width: 100%;}
+.header-index .nav>li.on .line{width: 100%;}
+
+.header-index .nav>li .s1 .xiala{position: absolute;left: -50%;top: 10px;z-index: 1;width: 200%;padding: 50px 0 0 0;display: none;    }
+.header-index .nav>li .s1 .xiala li{line-height: 36px;background: #fff;text-align: center;box-shadow: 0 6px 10px rgba(0, 0, 0, .1);}
+.header-index .nav>li .s1 .xiala li:hover{background: #f5f5f5;}
+
+
+/*底部*/
+.footer-index{background: #ce0c26;}
+.footer-index .part-top{padding: 20px 0 30px;}
+.footer-index .part-top .part{width: 33%;height: 197px;}
+.footer-index .part-top .part + .part{border-left: 1px solid #fff;}
+.footer-index .part-top .part.part1{text-align: center;}
+.footer-index .part-top .part.part1 img{vertical-align: middle;}
+.footer-index .part-top .part.part2 .i1{display: block;margin: 15px auto;}
+.footer-index .part-top .part.part2 .i2{display: block;margin: 0 auto;}
+.footer-index .part-top .part.part3 .xq{margin: 30px 0 0 40px;}
+.footer-index .part-top .part.part3 .xq p{color: #fff;line-height: 36px;}
+.footer-index .part-top .part.part3 .friend{margin: 10px 10px 0 40px;}
+.footer-index .part-top .part.part3 .friend label{color: #fff;}
+.footer-index .part-top .part.part3 .friend .select-box{width: 214px;height: 24px;background:#fff url("../images/i-7.png") 191px 1px no-repeat;cursor: pointer;position: relative;}
+.footer-index .part-top .part.part3 .friend .select-box span{font-size: 12px;color: #666;display: block;line-height: 24px;padding: 0 0 0 8px;width: 180px;}
+.footer-index .part-top .part.part3 .friend .select-box .select{
+    position: absolute;left: 0;bottom: 25px;width: 100%;display: none;
+    background: rgba(0, 0, 0, 0.8);  filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr='#9F000000',endcolorstr='#9F000000')
+}
+.footer-index .part-top .part.part3 .friend .select-box .select li{padding:3px 8px;border-bottom: 1px solid #ccc;}
+.footer-index .part-top .part.part3 .friend .select-box .select li a{color: #fff;}
+.footer-index .part-bottom{background: #333;height: 46px;line-height: 46px;text-align: center;}
+.footer-index .part-bottom p{color: #fff;display: inline;}
+.footer-index .part-bottom p a{color: #fff;}
